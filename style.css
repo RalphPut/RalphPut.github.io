@@ -387,27 +387,29 @@ justify-content: left;
 @media(max-width:640px){
     
      img{
-         float: left;
-       width: 80%;
-       height: 50%;
+       
+       width: 90%;
+       height: 60%;
+       
     }
     .img-box{
         flex-wrap: wrap;
         margin: 20px;
+        padding-bottom: 50px;
     }
     
     .types{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        height: 100%;
+        padding-bottom: 35px;
       
     }
     #interests{
         padding-top: 450px;
     }
     #about{
-        padding-bottom: 350px;
+        padding-bottom: 370px;
     }
     .type-content{
         height: auto;
@@ -427,6 +429,7 @@ justify-content: left;
          flex-direction: column;
      }
      .interests-title{
+         padding-top: 25px;
          margin-top: -450px;
          margin-bottom: 55px;
          text-align: center;
