@@ -384,3 +384,54 @@ justify-content: left;
 .interests-content .fa{
     color: yellowgreen;
 }
+@media(max-width:640px){
+    
+     img{
+         float: left;
+       width: 80%;
+       height: 50%;
+    }
+    .img-box{
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    
+    .types{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+      
+    }
+    #interests{
+        padding-top: 450px;
+    }
+    #about{
+        padding-bottom: 350px;
+    }
+    .type-content{
+        height: auto;
+        justify-content: space-between;
+    }
+    .type-left{
+        margin-top: 350px;
+        margin-bottom: -80px;
+    }
+
+    
+    .type-title{
+        margin-top: 50px;
+    }
+     .contact-content{
+         margin-top: 350px;
+         flex-direction: column;
+     }
+     .interests-title{
+         margin-top: -450px;
+         margin-bottom: 55px;
+         text-align: center;
+     }
+     .contact-title{
+         margin-bottom: -210px;
+     }
+    }
